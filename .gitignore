@@ -1,0 +1,29 @@
+# Maven compilation output
+target/
+*.releaseBackup
+
+# IDE Settings
+.idea/
+*.iml
+*.iws
+.settings/
+.project
+.classpath
+.factorypath
+.vscode/
+*.code-workspace
+
+# OS Specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Local Environment Configs
+.env
+.env.local
+application-local.properties
+application-local.yml
