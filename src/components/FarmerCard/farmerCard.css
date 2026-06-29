@@ -1,0 +1,32 @@
+.farmer-card {
+  border-radius: 16px !important;
+  transition: 0.3s;
+}
+
+.farmer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.farmer-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1b5e20;
+}
+
+.farmer-location {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.farmer-rating {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.farmer-btn {
+  margin-top: 12px !important;
+  border-color: #2e7d32 !important;
+  color: #2e7d32 !important;
+}

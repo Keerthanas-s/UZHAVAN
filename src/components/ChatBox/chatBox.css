@@ -1,0 +1,14 @@
+.chat-box {
+  padding: 12px;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.chat-input-area {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-btn {
+  background-color: #2e7d32 !important;
+}

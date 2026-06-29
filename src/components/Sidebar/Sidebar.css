@@ -1,0 +1,86 @@
+.sidebarHeader{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+}
+
+.logoAvatar{
+
+    background:#2E7D32 !important;
+    width:55px !important;
+    height:55px !important;
+    font-size:26px !important;
+
+}
+
+.logoText{
+
+    color:#2E7D32;
+    font-weight:700 !important;
+    letter-spacing:1px;
+
+}
+
+.roleText{
+
+    color:gray;
+    font-size:13px;
+
+}
+
+.navLink{
+
+    color:#555;
+    text-decoration:none;
+
+}
+
+.activeLink{
+
+    color:#2E7D32;
+    text-decoration:none;
+
+}
+
+.activeLink .MuiListItemButton-root{
+
+    background:#E8F5E9;
+    border-right:5px solid #2E7D32;
+    border-radius:0 25px 25px 0;
+
+}
+
+.MuiListItemButton-root{
+
+    margin:6px 10px;
+    border-radius:10px;
+    transition:0.3s;
+
+}
+
+.MuiListItemButton-root:hover{
+
+    background:#F1F8E9;
+    transform:translateX(6px);
+
+}
+
+.MuiListItemIcon-root{
+
+    color:#2E7D32 !important;
+
+}
+
+.logoutBtn{
+
+    border-radius:12px !important;
+
+}
+
+.logoutBtn:hover{
+
+    background:#FFEBEE !important;
+
+}

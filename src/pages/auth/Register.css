@@ -1,0 +1,96 @@
+.registerContainer{
+
+    width:100%;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(135deg,#e8f5e9,#c8e6c9,#a5d6a7);
+
+    padding:30px;
+
+}
+
+.registerCard{
+
+    width:460px;
+
+    padding:35px;
+
+    border-radius:20px !important;
+
+    background:#ffffff !important;
+
+}
+
+.registerTitle{
+
+    text-align:center;
+
+    font-weight:bold !important;
+
+    color:#2e7d32;
+
+    margin-bottom:10px !important;
+
+}
+
+.registerSubTitle{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:20px !important;
+
+}
+
+.registerBtn{
+
+    background:#2e7d32 !important;
+
+    height:50px;
+
+    margin-top:20px !important;
+
+    font-size:16px !important;
+
+    font-weight:bold !important;
+
+}
+
+.registerBtn:hover{
+
+    background:#1b5e20 !important;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:#2e7d32;
+
+    font-weight:bold;
+
+}
+
+a:hover{
+
+    text-decoration:underline;
+
+}
+
+@media(max-width:600px){
+
+.registerCard{
+
+    width:100%;
+
+    padding:25px;
+
+}
+
+}

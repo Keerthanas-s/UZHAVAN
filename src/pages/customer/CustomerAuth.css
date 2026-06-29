@@ -1,0 +1,80 @@
+.customer-auth-container {
+
+    min-height: 100vh;
+    width: 100%;
+
+    background-image: url("/images/uzhavan1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+}
+
+
+/* Background dark overlay */
+
+.customer-auth-container::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0,0,0,0.45);
+
+}
+
+
+/* Card */
+
+.customer-auth-card {
+
+    position: relative;
+
+    z-index: 1;
+
+    width: 400px;
+
+    padding: 30px;
+
+    border-radius: 15px !important;
+
+    background: rgba(255,255,255,0.9) !important;
+
+    backdrop-filter: blur(8px);
+
+}
+
+
+.customer-title {
+
+    text-align: center;
+
+    font-weight: bold !important;
+
+    color: #2e7d32;
+
+}
+
+
+.customer-button {
+
+    margin-top: 20px !important;
+
+    background-color: #2e7d32 !important;
+
+}
+
+
+.customer-button:hover {
+
+    background-color: #1b5e20 !important;
+
+}

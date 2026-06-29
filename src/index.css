@@ -1,0 +1,16 @@
+html,
+body,
+#root{
+height:100%;
+width:100%;
+background:#f5f7fa;
+}
+
+::-webkit-scrollbar{
+width:7px;
+}
+
+::-webkit-scrollbar-thumb{
+background:#1B5E20;
+border-radius:10px;
+}

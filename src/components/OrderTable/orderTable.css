@@ -1,0 +1,15 @@
+.order-table {
+  border-radius: 12px !important;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.order-table th {
+  background-color: #e8f5e9 !important;
+  color: #1b5e20 !important;
+  font-weight: 600 !important;
+}
+
+.order-row:hover {
+  background-color: #f1f8e9;
+}
